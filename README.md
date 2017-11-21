@@ -8,6 +8,6 @@ If you want to try to generate the same library, use the latest version of `angu
 - `npm install`
 - `ngr generate lib --dir src/app/shared/lib --name my-lib`
 - `ngr generate module --name lib --dir src/app/shared/lib/components/my --include component`
-- Add `export * from './lib.component';` to `src/app/shared/lib/components/my/lib.component.ts`
+- Add `export * from './lib.component';` to `src/app/shared/lib/components/lib/lib.component.ts`
 - Add `export * from './components/lib/lib.module';` to `src/app/shared/lib/index.ts`
 - `ngr build lib -c src/app/shared/lib/lib.config.json`
